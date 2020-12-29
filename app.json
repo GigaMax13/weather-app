@@ -1,12 +1,42 @@
 {
   "name": "weather-app",
-  "displayName": "weather-app",
+  "displayName": "Weather App",
   "expo": {
-    "name": "weather-app",
+    "name": "Weather App",
     "slug": "weather-app",
+    "description": "Just another weather app ;)",
+    "owner": "gigamax13",
     "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-screen.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "buildNumber": "1"
+    },
+    "android": {
+      "versionCode": 1,
+      "icon": "./assets/icon-android.png"
+    },
+    "updates": {
+      "enabled": true,
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 30000
+    },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "jsx",
+        "ts",
+        "tsx",
+        "svg"
+      ]
+    }
   }
 }

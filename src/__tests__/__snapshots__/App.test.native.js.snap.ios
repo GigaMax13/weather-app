@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should match the snapshot 1`] = `
+<RNCAppearanceProvider
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    backgroundColor="#FFFFFF"
+    barStyle="dark-content"
+    style={
+      Object {
+        "backgroundColor": "#FFFFFF",
+        "height": 44,
+      }
+    }
+  />
+  <View
+    horizontallyCentered={true}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#FFFFFF",
+        "flexGrow": 1,
+        "flexShrink": 0,
+        "height": "100%",
+        "justifyContent": "center",
+        "paddingBottom": 10,
+        "paddingLeft": 10,
+        "paddingRight": 10,
+        "paddingTop": 10,
+        "width": "100%",
+      }
+    }
+    verticallyCentered={true}
+  >
+    <RCTSwitch
+      accessibilityRole="switch"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      onTintColor="#512DA8"
+      style={
+        Object {
+          "height": 31,
+          "width": 51,
+        }
+      }
+      tintColor="#E2E2E2"
+      value={false}
+    />
+  </View>
+</RNCAppearanceProvider>
+`;

@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`StyleGuide Container should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-start",
+      "backgroundColor": "#FFF",
+      "flexGrow": 1,
+      "flexShrink": 0,
+      "height": "100%",
+      "justifyContent": "flex-start",
+      "paddingBottom": 10,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 10,
+      "width": "100%",
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+/>
+`;
+
+exports[`StyleGuide SafeAreaView should match the snapshot 1`] = `
+<View
+  backgroundColor="#FFF"
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "flexGrow": 1,
+      "flexShrink": 0,
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+/>
+`;
+
+exports[`StyleGuide Switch should match the snapshot 1`] = `
+<AndroidSwitch
+  accessibilityRole="switch"
+  enabled={true}
+  on={false}
+  onChange={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Array [
+      Object {},
+    ]
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+  trackColorForFalse="blue"
+  trackColorForTrue="red"
+  trackTintColor="blue"
+/>
+`;

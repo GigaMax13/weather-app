@@ -9,14 +9,14 @@ import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-component
 
 import { themeLight, themeDark } from './colors';
 
-export const ThemeContext = createContext({
+const ThemeContext = createContext({
+  setDarkTheme: () => {},
   isDarkTheme: false,
-  setTheme: () => {},
 });
 
 export const useTheme = () => useContext(ThemeContext);
 
-export const ThemeProvider = ({ children }) => {
+export const useProvider = () => {
   // Can be dark | light | no-preference
   const colorScheme = useColorScheme();
 
@@ -26,14 +26,21 @@ export const ThemeProvider = ({ children }) => {
     setIsDarkTheme(colorScheme === 'dark');
   }, [colorScheme]);
 
-  const themeValue = {
-    setTheme: (scheme) => setIsDarkTheme(scheme === 'dark'),
-    isDarkTheme,
+  return {
+    context: {
+      setDarkTheme: (isDark) => setIsDarkTheme(isDark === true),
+      isDarkTheme
+    },
+    theme: isDarkTheme ? themeDark : themeLight,
   };
+};
+
+export const ThemeProvider = ({ children }) => {
+  const { context, theme } = useProvider();
 
   return (
-    <ThemeContext.Provider value={themeValue}>
-      <StyledComponentsThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
+    <ThemeContext.Provider value={context}>
+      <StyledComponentsThemeProvider theme={theme}>
         {children}
       </StyledComponentsThemeProvider>
     </ThemeContext.Provider>

@@ -9,7 +9,7 @@ const StatusBarWrapper = styled.View.attrs(({ theme: { statusBar } }) => (status
   background-color: ${({ backgroundColor }) => backgroundColor};
 `;
 
-export const StyledStatusBar = styled.StatusBar.attrs((props) => {
+const StyledStatusBar = styled.StatusBar.attrs((props) => {
   const {
     theme: {
       statusBar,

@@ -19,7 +19,6 @@ export const useTheme = () => useContext(ThemeContext);
 export const useProvider = () => {
   // Can be dark | light | no-preference
   const colorScheme = useColorScheme();
-
   const [isDarkTheme, setIsDarkTheme] = useState(colorScheme === 'dark');
 
   useEffect(() => {

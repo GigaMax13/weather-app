@@ -1,9 +1,9 @@
 import React from 'react';
 
-import { useTheme } from '../theme/ThemeProvider';
-import { Container, Switch } from '../components/StyleGuide';
+import { useTheme } from '../../theme/ThemeProvider';
+import { Container, Switch } from '../../components/StyleGuide';
 
-export const ThemeSwitch = () => {
+export const Config = () => {
   const { setDarkTheme, isDarkTheme } = useTheme();
 
   return (

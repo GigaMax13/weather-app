@@ -18,40 +18,16 @@ exports[`<App /> should match the snapshot 1`] = `
       }
     }
   />
-  <View
-    horizontallyCentered={true}
+  <RCTSafeAreaView
+    backgroundColor="#FFFFFF"
+    emulateUnlessSupported={true}
     style={
       Object {
-        "alignItems": "center",
         "backgroundColor": "#FFFFFF",
         "flexGrow": 1,
         "flexShrink": 0,
-        "height": "100%",
-        "justifyContent": "center",
-        "paddingBottom": 10,
-        "paddingLeft": 10,
-        "paddingRight": 10,
-        "paddingTop": 10,
-        "width": "100%",
       }
     }
-    verticallyCentered={true}
-  >
-    <RCTSwitch
-      accessibilityRole="switch"
-      onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      onTintColor="#512DA8"
-      style={
-        Object {
-          "height": 31,
-          "width": 51,
-        }
-      }
-      tintColor="#E2E2E2"
-      value={false}
-    />
-  </View>
+  />
 </RNCAppearanceProvider>
 `;

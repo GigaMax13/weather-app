@@ -1,2 +1,2 @@
-src/setupTests.js
 src/**/*.test*
+setupTests.js

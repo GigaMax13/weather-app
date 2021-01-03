@@ -19,40 +19,14 @@ exports[`<App /> should match the snapshot 1`] = `
     }
   />
   <View
-    horizontallyCentered={true}
+    backgroundColor="#FFFFFF"
     style={
       Object {
-        "alignItems": "center",
         "backgroundColor": "#FFFFFF",
         "flexGrow": 1,
         "flexShrink": 0,
-        "height": "100%",
-        "justifyContent": "center",
-        "paddingBottom": 10,
-        "paddingLeft": 10,
-        "paddingRight": 10,
-        "paddingTop": 10,
-        "width": "100%",
       }
     }
-    verticallyCentered={true}
-  >
-    <AndroidSwitch
-      accessibilityRole="switch"
-      enabled={true}
-      on={false}
-      onChange={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
-      style={
-        Array [
-          Object {},
-        ]
-      }
-      trackColorForFalse="#E2E2E2"
-      trackColorForTrue="#512DA8"
-      trackTintColor="#E2E2E2"
-    />
-  </View>
+  />
 </View>
 `;

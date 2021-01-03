@@ -75,3 +75,7 @@ buck-out/
 # Expo
 .expo/*
 web-build/
+
+# Environment
+.env
+!.env.sample

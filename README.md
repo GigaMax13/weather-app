@@ -31,6 +31,9 @@ $ yarn
 $ yarn run start
 ```
 
+### :memo: License
+This project is under the MIT license. See the [LICENSE] for more information.
+
 [SWR]: <https://github.com/vercel/swr>
 [Expo]: <https://expo.io/>
 [Git]: <https://git-scm.com>
@@ -39,3 +42,4 @@ $ yarn run start
 [Yarn]: <https://yarnpkg.com/lang/en/>
 [markrall]: <https://github.com/markrall>
 [layout]: <https://github.com/markrall/portfolio-weather-app/>
+[LICENSE]: <https://github.com/GigaMax13/weather-app/blob/main/LICENSE>

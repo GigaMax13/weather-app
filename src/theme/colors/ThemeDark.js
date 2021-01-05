@@ -4,8 +4,8 @@ export const themeDark = {
     backgroundColor: '#000',
   },
   backgroundColor: '#121212',
-  primary: '#BC86FC',
+  primary: '#FFF',
   secondary: '#CFCFCF',
   tertiary: '#5D5D5D',
-  error: '#EF9A9A',
+  error: '#D32F2F',
 };

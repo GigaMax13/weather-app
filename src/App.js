@@ -3,14 +3,14 @@ import { AppearanceProvider } from 'react-native-appearance';
 
 import { ThemeProvider } from './theme/ThemeProvider';
 import { StatusBar } from './components/StyleGuide';
-import { WeatherInfo } from './views/WeatherInfo';
+import { Weather } from './views/Weather';
 
 export default function App() {
   return (
     <AppearanceProvider>
       <ThemeProvider>
         <StatusBar />
-        <WeatherInfo />
+        <Weather />
       </ThemeProvider>
     </AppearanceProvider>
   );

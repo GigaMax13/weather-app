@@ -4,11 +4,13 @@
 
 ### :iphone: The project
 
-Initially I started this project just for an interview test, but I decided to made some extra features like a theme control to easly swap between normal and dark mode, an achitecture using custom hooks (no redux or any kind of single source of truth lib) and my fist attempt to finally use [SWR] in "production".
+Initially I started this project just for an interview test, but I decided to make some extra features like a theme control to easily swap between normal and dark mode, an architecture using custom hooks (no redux or any kind of single source of truth lib) and my fist attempt to finally use [SWR] in "production".
 
-The application itself was made on top of the [Expo], because of that you can easly clone and run the repository without any configuration for a native development. You just need a smartphone to run the app. :smile:
+The application itself was made on top of the [Expo], because of that you can easily clone and run the repository without any configuration for a native development. You just need a smartphone to run the app. :smile:
 
-As I dont have any experience as a designer, I just googled for "weather app ui" and "weather app portfolio". Luckily, I found a project made by [markrall] and used his [layout] as reference.
+As I don't have any experience as a designer, I just googled for "weather app ui" and "weather app portfolio". Luckily, I found a project made by [markrall] and used his [layout] as reference.
+
+| <img src="https://user-images.githubusercontent.com/1591993/103631981-6eb88180-4f22-11eb-8823-bd50302e86c7.png" alt="normal screenshot" width="400"/> | <img src="https://user-images.githubusercontent.com/1591993/103631930-5ea0a200-4f22-11eb-87e4-5e1da65c618e.png" alt="dark mode screenshot" width="400"/> |
 
 ### :computer: Running Locally
 

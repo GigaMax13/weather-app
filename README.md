@@ -1,6 +1,6 @@
 # weather-app
 
-:umbrella: Just another weather app. An attempt to add a nice React Native project to my git / portfolio.
+:umbrella: :construction: (WIP) An attempt to add a nice React Native project to my git / portfolio.
 
 ### :iphone: The project
 
@@ -12,6 +12,19 @@ As I don't have any experience as a designer, I just googled for "weather app ui
 
 | <img src="https://user-images.githubusercontent.com/1591993/103631981-6eb88180-4f22-11eb-8823-bd50302e86c7.png" alt="normal screenshot" width="400"/> | <img src="https://user-images.githubusercontent.com/1591993/103631930-5ea0a200-4f22-11eb-87e4-5e1da65c618e.png" alt="dark mode screenshot" width="400"/> |
 
+### :vertical_traffic_light: Roadmap
+
+  - :white_check_mark: Create the initial configuration 
+  - :white_check_mark: Theme switch context
+  - :white_check_mark: App StyleGuide
+  - :white_check_mark: Custom hooks
+  - Custom hooks tests
+  - :white_check_mark: Main feature view
+  - Main feature tests
+  - Configure the navigation system
+  - Search weather by city name view
+  - Configs view
+  
 ### :computer: Running Locally
 
 To clone and run this application, you'll need [Git], [Node.js] and a package manager installed on your computer. From your command line:

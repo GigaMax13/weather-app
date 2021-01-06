@@ -51,20 +51,5 @@
     "jest-styled-components": "^7.0.3",
     "metro-react-native-babel-preset": "^0.64.0",
     "react-test-renderer": "~16.13.1"
-  },
-  "jest": {
-    "preset": "jest-expo-enzyme",
-    "transformIgnorePatterns": [
-      "node_modules/(?!(jest-)?react-native|react-clone-referenced-element|@react-native-community|expo(nent)?|@expo(nent)?/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|@sentry/.*)"
-    ],
-    "setupFiles": [
-      "dotenv/config"
-    ],
-    "setupFilesAfterEnv": [
-      "<rootDir>/setupTests.js"
-    ],
-    "snapshotSerializers": [
-      "enzyme-to-json/serializer"
-    ]
   }
 }

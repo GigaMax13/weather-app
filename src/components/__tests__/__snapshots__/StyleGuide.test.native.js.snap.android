@@ -1,5 +1,138 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`StyleGuide ActivityIndicator should match the snapshot 1`] = `
+<ActivityIndicator
+  animating={true}
+  color="green"
+  hidesWhenStopped={true}
+  size="large"
+  style={
+    Object {
+      "marginBottom": 0,
+      "marginLeft": 0,
+      "marginRight": 0,
+      "marginTop": 0,
+      "paddingBottom": 0,
+      "paddingLeft": 0,
+      "paddingRight": 0,
+      "paddingTop": 0,
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+/>
+`;
+
+exports[`StyleGuide Button should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "alignSelf": "flex-start",
+      "backgroundColor": "#FFF",
+      "borderRadius": 8,
+      "flexDirection": "row",
+      "height": 40,
+      "justifyContent": "center",
+      "marginBottom": "auto",
+      "marginLeft": "auto",
+      "marginRight": "auto",
+      "marginTop": "auto",
+      "paddingBottom": 0,
+      "paddingLeft": 10,
+      "paddingRight": 10,
+      "paddingTop": 0,
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+/>
+`;
+
+exports[`StyleGuide ButtonText should match the snapshot 1`] = `
+<Text
+  style={
+    Object {
+      "color": "green",
+      "fontSize": 16,
+      "textTransform": "capitalize",
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+/>
+`;
+
+exports[`StyleGuide Card should match the snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "blue",
+      "borderRadius": 8,
+      "elevation": 5,
+      "paddingBottom": 15,
+      "paddingLeft": 15,
+      "paddingRight": 15,
+      "paddingTop": 15,
+      "shadowColor": "rgba(0, 0, 0, 0.2)",
+      "shadowOffset": Object {
+        "height": 4,
+        "width": 2,
+      },
+      "shadowOpacity": 1,
+      "shadowRadius": 5,
+      "width": "100%",
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+/>
+`;
+
 exports[`StyleGuide Container should match the snapshot 1`] = `
 <View
   style={
@@ -10,10 +143,10 @@ exports[`StyleGuide Container should match the snapshot 1`] = `
       "flexShrink": 0,
       "height": "100%",
       "justifyContent": "flex-start",
-      "paddingBottom": 10,
-      "paddingLeft": 10,
-      "paddingRight": 10,
-      "paddingTop": 10,
+      "paddingBottom": 15,
+      "paddingLeft": 15,
+      "paddingRight": 15,
+      "paddingTop": 15,
       "width": "100%",
     }
   }
@@ -59,6 +192,42 @@ exports[`StyleGuide SafeAreaView should match the snapshot 1`] = `
 />
 `;
 
+exports[`StyleGuide ScrollView should match the snapshot 1`] = `
+<RCTScrollView
+  backgroundColor="#FFF"
+  contentContainerStyle={
+    Object {
+      "flexGrow": 1,
+      "padding": 15,
+    }
+  }
+  keyboardShouldPersistTaps="always"
+  style={
+    Object {
+      "backgroundColor": "#FFF",
+      "flexGrow": 1,
+      "height": "100%",
+      "width": "100%",
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
+>
+  <View />
+</RCTScrollView>
+`;
+
 exports[`StyleGuide Switch should match the snapshot 1`] = `
 <AndroidSwitch
   accessibilityRole="switch"
@@ -88,5 +257,29 @@ exports[`StyleGuide Switch should match the snapshot 1`] = `
   trackColorForFalse="blue"
   trackColorForTrue="red"
   trackTintColor="blue"
+/>
+`;
+
+exports[`StyleGuide Text should match the snapshot 1`] = `
+<Text
+  style={
+    Object {
+      "color": "green",
+      "fontSize": 16,
+    }
+  }
+  theme={
+    Object {
+      "backgroundColor": "#FFF",
+      "error": "yellow",
+      "primary": "red",
+      "secondary": "green",
+      "statusBar": Object {
+        "backgroundColor": "#000",
+        "barStyle": "light-content",
+      },
+      "tertiary": "blue",
+    }
+  }
 />
 `;
